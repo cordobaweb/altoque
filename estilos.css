@@ -1,0 +1,359 @@
+body {
+    background: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Megrim', cursive;
+    font-size: 5rem;
+}
+
+.logo {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 1rem;
+    width: 150px;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.flor {
+    width: 250px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.navegador {
+    background-color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+
+}
+
+.navegador p {
+    font-size: 2rem;
+}
+.navbar-toggler {
+    width: 50px;
+    height: 50px;
+}
+
+.menu-responsive ul li a  {
+    margin-left: 48px;
+    margin-right: 48px;
+}
+
+.header {
+    position: relative;
+  width: 100%;
+  height: 700px;
+  min-height: 35rem;
+  padding: 5rem 0;
+  background: linear-gradient(to bottom, rgba(27, 27, 27, 0.741) 0%, rgba(27, 27, 27, 0.857) 75%, #131313 100%),
+   url("img/fondo-pizza.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.icono {
+    width: 120px;
+    padding: 15px;
+}
+
+.icon-carr {
+    background-color: #131313b7;
+    border-radius: 10%;
+}
+
+.btn-whatsapp {
+    display:block;
+    width:90px;
+    height:90px;
+    color: #fff;
+    position: fixed;
+    right:80px;
+    bottom:50px;
+    line-height:80px;
+    text-align:center;
+    z-index:999;
+}
+
+.carrusel {
+    background-color: #000000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.menu {
+    background-color: #000000bb;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 2rem 0;
+    background: linear-gradient(to bottom, rgba(27, 27, 27, 0.3) 0%, rgba(27, 27, 27, 0.7) 75%, #131313 100%),
+     url("img/contacto.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.footer {
+    background: #0000009d;
+}
+
+.map-responsive {
+    padding: 45px;
+}
+
+.footer-2 {
+    background-color: #000000;
+}
+
+.social-icon {
+  text-align: center;
+  height: 2rem;
+  width: 2rem !important;
+}
+
+/*  ---------@MEDIA  992 A 1199 ----------*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    h1 {
+        font-size: 3rem;
+    }
+    
+    .navegador {
+        font-size: 1rem;
+    }
+    
+    .navegador p {
+        font-size: 1.5rem;
+    }
+
+    .map-responsive {
+        padding: 40px;
+    }
+}
+
+
+/*  ---------@MEDIA  768 A 991 ----------*/
+@media (min-width: 767.98px) and (max-width: 991px) {
+    .menu-responsive {
+        background-color: #24242904;
+    }
+
+    .menu-responsive ul li  a {
+        margin-left: 0px;
+    }
+
+    .logo {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 1rem;
+        width: 100px;
+        padding: 3px;
+    }
+
+    .flor {
+        width: 200px;
+        margin-left: 30px;
+    margin-right: 30px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+    
+    .navegador {
+        font-size: 1rem;
+    }
+    
+    .navegador p {
+        font-size: 1.5rem;
+    }
+
+    .header {
+        height: 500px;
+        padding-top: 65px;
+    }
+
+    .btn-whatsapp {
+        display:block;
+        width:70px;
+        height:70px;
+        color: #fff;
+        position: fixed;
+        right:40px;
+        bottom:50px;
+        line-height:80px;
+        text-align:center;
+        z-index:999;
+    }
+}
+
+
+/*  ---------@MEDIA  576 A 767 ----------*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .menu-responsive {
+        background-color: #242429;
+    }
+
+    .menu-responsive ul li a {
+        margin-left: 0px;
+    }
+
+    .logo {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 1rem;
+        width: 90px;
+        padding: 3px;
+    }
+
+    .flor {
+        width: 140px;
+        margin-left: 20px;
+    margin-right: 20px;
+    }
+
+    .social-icon {
+        width: 1.5rem !important;
+    }
+
+    .navegador p {
+        font-size: 1.5rem;
+    }
+
+    .header {
+        height: 450px;
+        padding: 3rem 0;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .btn-whatsapp {
+        display:block;
+        width:70px;
+        height:70px;
+        color: #fff;
+        position: fixed;
+        right:40px;
+        bottom:50px;
+        line-height:80px;
+        text-align:center;
+        z-index:999;
+    }
+
+    .map-responsive {
+        padding: 20px;
+    }
+
+    h6 {
+        font-size: 13px;
+    }
+
+
+}
+
+/*   ------- @MEDIA  -575 ------  */
+@media (max-width: 575.98px) {
+
+    .logo {
+        margin-top: 5px;
+        margin-bottom: 15px;
+        margin-left: 1rem;
+        width: 80px;
+        padding: 3px;
+    }
+
+    .flor {
+        display: none;
+    }
+
+    .nav-resposiv {
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .menu-responsive ul li a {
+        margin-left: 0px;
+    }
+
+    .social-icon {
+        width: 1rem !important;
+    }
+
+    .navegador p {
+        font-size: 1rem;
+    }
+
+    .navbar-toggler {
+        height: 30px;
+    }
+
+    .menu-responsive {
+        background-color: #24242904;
+        font-size: 0.8rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+
+    }
+
+    .header {
+        width: auto;
+        height: 450px;
+        min-height: auto;
+        padding-top: 45px;
+        background-attachment:scroll;
+    }
+
+    .btn-whatsapp {
+        display:block;
+        width:60px;
+        height:60px;
+        color: #fff;
+        position: fixed;
+        top: 500px;
+        right: 40px;
+        bottom: 50px;
+        line-height:80px;
+        text-align:center;
+        z-index:999;
+    }
+
+    h5 {
+        font-size: 1rem;
+    }
+
+    .map-responsive {
+        overflow:hidden;
+        padding-bottom:350px; /*Reduce este valor si el mapa fuera muy alto, por ejemplo 250px, puedes usar porcentajes, 50%*/
+        position:relative;
+        height:0;
+    }
+    
+    .map-responsive iframe{
+        padding: 15px;
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+    }
+    /* End: Google Maps Responsive */
+
+    h6 {
+        font-size: 10px;
+    }
+
+}
